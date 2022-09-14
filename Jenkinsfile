@@ -8,7 +8,7 @@ pipeline{
             steps{
                 echo "GitClone"
                
-                    git credentialsId: 'github', url: 'https://github.com/mithunmarvel/DevOps_Project.git'
+                    git credentialsId: 'github', url: 'https://github.com/kishoreknk/Docker.git'
                     }
                 
             }
